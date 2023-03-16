@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+cd ~
+
 sudo apt install -y dirmngr gnupg apt-transport-https ca-certificates software-properties-common
 sudo apt install -y vim build-essential python3-dev manpages-dev
 

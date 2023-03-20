@@ -10,12 +10,11 @@ sudo apt install -y g++ gcc gfortran libreadline-dev libx11-dev libxt-dev \
                     screen wget libpcre2-dev make 
 cd /usr/local/src
 sudo wget https://cran.rstudio.com/src/base/R-4/R-4.2.3.tar.gz
-sudo su
 tar zxvf R-4.2.3.tar.gz
 cd R-4.2.3
-./configure --enable-R-shlib --with-blas --with-lapack #optional
-make
-make install
+sudo ./configure --enable-R-shlib
+sudo make
+sudo make install
 cd ..
 rm -rf R-4.2.3*
 exit

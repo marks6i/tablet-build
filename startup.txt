@@ -1,9 +1,14 @@
   sudo apt update && sudo apt upgrade -y
-  sudo apt install -y openssh-server
+  sudo apt install -y dirmngr gnupg apt-transport-https ca-certificates software-properties-common \
+    vim build-essential python3-dev manpages-dev openssh-server locales ssh git
+  
   ssh-keygen -t ed25519 -C "coach.marks6i.gmail.com"
   eval "$(ssh-agent -s)"
 
-  sudo apt install -y git
+  sudo dpkg-reconfigure locales
+
+  tzselect
+
   git config --global user.name "Mark Solinski"
   git config --global user.email "coach.marks6i@gmail.com"
 

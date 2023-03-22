@@ -1,0 +1,51 @@
+    1  ls
+    2  sudo apt update && sudo apt upgrade
+    3  sudo apt install -y dirmngr gnupg apt-transport-https ca-certificates software-properties-common     vim build-essential python3-dev manpages-dev openssh-server locales ssh git
+    4  cd
+    5  cd bi
+    6  cd tablet-build/
+    7  ls
+    8  ./install-r.sh 
+    9  ls
+   10  ./install.sh 
+   11  pyto
+   12  python --version
+   13  cd ..
+   14  sudo apt install libzmq3-dev libcurl4-openssl-dev libssl-dev jupyter-core jupyter-client
+   15  R
+   16  ls
+   17  sudo apt install -y nodejs
+   18  node -v
+   19  sudo apt install -y npm
+   20  sudo npm view npm versions --json
+   21  sudo npm view npm version
+   22  npm i -g npm
+   23  sudo npm install -g n
+   24  n stable
+   25  exit
+   26  ls
+   27  pip install jupyter_contrib_nbextensions
+   28  ls -latr
+   29  source .venv/PythonData/bin/activate
+   30  pip install jupyter_contrib_nbextensions
+   31  sudo pip install jupyter_contrib_nbextensions
+   32  cd
+   33  vim .bashrc
+   34  exit
+   35  R
+   36  sudo apt install libharfbuzz-dev libfribidi-dev 
+   37  R
+   38  sudo apt install -y libfreetype6-dev libpng-dev libtiff5-dev libjpeg-dev
+   39  R
+   40  sudo R
+   41  jupyter notebook
+   42  R
+   43  ls -latr
+   44  rm Untitled.ipynb 
+   45  vim .Rprofile
+   46  jupyter notebook
+   47  exit
+   48  jupyter notebook
+   49  R
+   50  jupyter notebook
+   51  history > tablet-build/hist.txt
